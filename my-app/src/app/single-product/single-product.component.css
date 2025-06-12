@@ -1,0 +1,374 @@
+:root {
+    --royal-maroon: #5e2c2c;
+    --deep-maroon: #491d1d;
+    --light-maroon: #7a4343;
+    --gold: #7d6a2c;
+    --beige: #d4b689;
+    --cream: #f8f1e5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body { 
+    margin: 0 auto;
+    font-family: "Playfair Display", serif;
+    background-color: #120505;
+    color: var(--beige);
+    width: 100hw;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    margin: 0 auto;
+}
+
+.my_work{
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url("../../assets/img/aesthetic.png");
+    background-size: cover;
+    background-repeat: repeat;
+
+}
+
+.waste_space_left_side{
+    grid-column: 1/2;
+}
+
+.middle_div_pics{
+    grid-column: 2/3;
+}
+
+
+
+.product_info_right_side_dev{
+    grid-column: 3/4;
+}
+
+.description {
+    display: grid;
+    grid-template-rows: repeat(10, auto);
+    grid-template-columns: auto;
+    box-sizing: border-box;
+    width: auto;
+    margin: 20px;
+    padding-left: 30px;
+    color: #f8f1e5;
+}
+
+.name_of_the_product {
+    grid-row: 1/2;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    color: #f8f1e5;
+}
+
+.name_of_the_product h2 {
+    width: 100%;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+
+.price_of_the_product {
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+    font-size: 30px;
+
+}
+
+.description_of_the_product {
+    grid-row: 3/4;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.size_chart {
+    grid-row: 4/5;
+    font-size: large;
+    padding-top: 20px;
+    padding-left: 75%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+.sizes {
+    grid-row: 5/7;
+    display: grid;
+    grid-template-columns: repeat(9,auto);
+
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; */
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.sizes a {
+    color: rgba(0,0,0,0.8);
+}
+.sizes:hover a {
+    background-color: #f8f1e5;
+}
+
+.under_size {
+    grid-row: 7/8;
+    text-align: center;
+    align-content: center;
+    text-align: center;
+    align-content: center;
+    width: 40px;
+    background-color: wheat;
+}
+
+.under_size_tailored {
+    background-color: wheat;
+    text-align: center;
+    align-content: center;
+    width: 80px;
+    height: 25px;
+}
+
+.sizes a {
+    text-decoration: none;
+}
+.product_add_to_cart :hover{
+    cursor: pointer;
+}
+
+.product_add_to_cart {
+    grid-row: 8/9;
+    grid-column: 1/2;
+    color: var(--cream);
+    text-align: center;
+    align-items: start;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #4a0202;
+    width: 69%;
+    height: auto;
+}
+.product_add_to_cart:hover {
+    background-color: #5e2c2c;
+}
+
+.product_add_to_cart a{
+    text-decoration: none;
+    color: var(--cream);
+}
+
+a {
+    color: var(--cream);
+}
+
+.product_add_to_cart a:hover {
+    color: #f5f5f5;
+}
+
+.need_help {
+    grid-row: 9/10;
+    color: var(--beige);
+    padding-top: 30px;
+}
+
+.need_help a {
+    text-decoration: underline;
+}
+
+.expected_delivery {
+    grid-row: 10/11;
+    padding-top: 25px;
+    font-size: larger;
+}
+
+.expected_delivery span {
+    color: #d0a967;
+    font-size: larger;
+}
+
+
+
+.pure_css_nav_bar {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-color: #120505;
+    display: flex;
+    background-image: url("../../assets/img/aesthetic.png");
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+
+.my_page_down_bar_specification {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+
+.tab-wrap {
+    color: var(--cream);
+    width: 91%;
+    border-radius: 40px;
+    font-size: 20px;
+    line-height: 2;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0 0 0 50px;
+    position: relative;
+}
+
+.tab-wrap input[type="radio"] {
+    position: absolute;
+    top: -150px;
+    left: -150px;
+}
+
+.tab-wrap li {
+    display: inline-block;
+    padding-bottom: 40px;
+}
+
+.tab-wrap label {
+    background-color:#f8f1e5;
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px 3px 0 0;
+    margin: 0 10px 0 0px;
+    padding: 1em 1.5em;
+    cursor: pointer;
+}
+
+.tab-wrap .tab-content {
+    width: 100%;
+    border-radius: 0 3px 3px 3px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    padding-top: 80px;
+    padding: 40px;
+    display: none;
+}
+
+.tab-content p{
+    color: white;
+    font-weight: 300;
+}
+
+.tab-wrap [id^="tab"]:checked+label {
+    background: beige;
+}
+
+.tab-wrap [id^="tab"]:checked~.tab-content {
+    display: block;
+} 
+
+
+
+@media only screen and (max-width: 500px) {
+    .my_work {
+        grid-template-columns: 1fr;
+    }
+
+    .waste_space_left_side {
+        display: none;
+    }
+
+    .middle_div_pics,
+    .product_info_right_side_dev {
+        grid-column: auto;
+        width: 100%;
+    }
+
+    .sizes {
+        grid-template-columns: repeat(4, auto);
+        padding-left: 10px;
+    }
+
+    .product_add_to_cart {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .size_chart {
+        padding-left: 0;
+        text-align: left;
+    }
+
+    .tab-wrap {
+        margin-left: 10px;
+        font-size: 18px;
+    }
+
+    .tab-wrap .tab-content {
+        position: static;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .name_of_the_product h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .price_of_the_product {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .description_of_the_product,
+    .need_help,
+    .expected_delivery {
+        text-align: center;
+    }
+
+    .sizes {
+        grid-template-columns: repeat(3, auto);
+        gap: 10px;
+    }
+
+    .under_size,
+    .under_size_tailored {
+        width: 50px;
+        height: auto;
+        font-size: 14px;
+    }
+
+    .product_add_to_cart {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .tab-wrap label {
+        padding: 0.5em 1em;
+        font-size: 16px;
+    }
+
+    .tab-wrap .tab-content {
+        font-size: 14px;
+    }
+}
