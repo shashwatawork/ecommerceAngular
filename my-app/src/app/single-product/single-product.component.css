@@ -24,9 +24,11 @@ body {
 
 .cont, .my_work, .description, .my_page_down_bar_specification, .product_info_right_side_dev {
     color: #f8f1e5;
-    margin-top: 70px;
 }
 
+.cont{   
+    margin-top: 70px;
+}
 .my_work{
     display: grid;
     grid-template-columns: 20% 30% 40%;

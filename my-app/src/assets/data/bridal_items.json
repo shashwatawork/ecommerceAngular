@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Red Lotus Lehenga",
+    "price":"Rs 325,000",
+    "description":"A deep orange Banarsi georgette saree paired with an embroidered silk blouse",
+    "expectedDelivery": "2025-06-14T00:00:00.000Z",
+    "specification_section":"A pale ivory silk sherwani. The jacket features floral and avian artworks gleaned from archival Jacobean embroidery fragments. It is paired with an embroidered kurta, a churidar pyjama and handcrafted shoes. The look is complemented with an embroidered dushala with artworks referenced from vintage suchi zari Najeemabadi shawls.",
+    "material_and_care_section":"Material and Care",
+    "disclaimer_section": "No Exchange, No Refund, No Cancellation. Slight irregularities may exist due to handwork."
+  },
+  {
+    "id": 2,
+    "name": "Deep Red Gota Lehenga",
+    "price":"Rs 325,000",
+    "description":"A deep orange Banarsi georgette saree paired with an embroidered silk blouse",
+    "expectedDelivery": "2025-06-14T00:00:00.000Z",
+    "specification_section":"A deep red tulle and silk lehenga. The skirt features lotus blossoms and floral motifs derived from archival Pichhwai textiles. It is paired with an embroidered choli and a sheer tulle dupatta. The look is complemented with a vintage Benarsi odhna which is layered with a handcrafted bandhej pattern and marodi ka kaam. Note: All RAH outfits comprise of a three component set. Accessories worn by model including potli and additional dupatta/veil are not included. The model is wearing a size small which is meant to fit chest size 34 inches",
+    "material_and_care_section":"Wash Care: Dry Clean Only Storage Instructions: We recommend storing your outfit in its original packaging in a dry environment and avoid prolonged exposure to light or heat.",
+    "disclaimer_section": "No Exchange, No Refund, No Cancellation This is a handcrafted product containing vintage fabrics, threads, sequins, zari, etc., and may have slight irregularities or imperfections. These irregularities are the result of the human involvement in the process and raw material that adds to the finished product’s charm while ensuring you have a 'one-of-a-kind piece.'' Despite every effort to provide accurate images of each outfit's color and design, actual colors and design may vary slightly due to the screen settings of different devices, the mood and lighting in the shoot location, and other factors. Any returns for a product due to customer dissatisfaction with a finish (that is not a fault) will need to comply with the RAH terms and conditions."
+  },
+  {
+    "id": 3,
+    "name": "Deep Ruby Rose Leheng",
+    "price":"Rs 655,000",
+    "description":"A deep ruby hued lehenga paired with an illusion tie-up choli and an embroidered organza dupatta.",
+    "expectedDelivery": "2025-06-14T00:00:00.000Z",
+    "specification_section":"A deep red tulle and silk lehenga. The skirt features lotus blossoms and floral motifs derived from archival Pichhwai textiles. It is paired with an embroidered choli and a sheer tulle dupatta. The look is complemented with a vintage Benarsi odhna which is layered with a handcrafted bandhej pattern and marodi ka kaam. Note: All RAH outfits comprise of a three component set. Accessories worn by model including potli and additional dupatta/veil are not included. The model is wearing a size small which is meant to fit chest size 34 inches",
+    "material_and_care_section":"Wash Care: Dry Clean Only Storage Instructions: We recommend storing your outfit in its original packaging in a dry environment and avoid prolonged exposure to light or heat.",
+    "disclaimer_section": "No Exchange, No Refund, No Cancellation This is a handcrafted product containing vintage fabrics, threads, sequins, zari, etc., and may have slight irregularities or imperfections. These irregularities are the result of the human involvement in the process and raw material that adds to the finished product’s charm while ensuring you have a 'one-of-a-kind piece.' Despite every effort to provide accurate images of each outfit's color and design, actual colors and design may vary slightly due to the screen settings of different devices, the mood and lighting in the shoot location, and other factors.Any returns for a product due to customer dissatisfaction with a finish (that is not a fault) will need to comply with the RAH terms and conditions."
+  },
+  {
+    "id": 4,
+    "name": "Multi-Hued Gota Leheng",
+    "price":"Rs 325,000",
+    "description":"A multi-hued tulle lehenga paired with an illusion tie-up choli and a sheer tulle dupatta.",
+    "expectedDelivery": "2025-06-14T00:00:00.000Z",
+    "specification_section":"A deep red tulle and silk lehenga. The skirt features lotus blossoms and floral motifs derived from archival Pichhwai textiles. It is paired with an embroidered choli and a sheer tulle dupatta. The look is complemented with a vintage Benarsi odhna which is layered with a handcrafted bandhej pattern and marodi ka kaam. Note: All RAH outfits comprise of a three component set. Accessories worn by model including potli and additional dupatta/veil are not included. The model is wearing a size small which is meant to fit chest size 34 inches",
+    "material_and_care_section":"Wash Care: Dry Clean Only Storage Instructions: We recommend storing your outfit in its original packaging in a dry environment and avoid prolonged exposure to light or heat.",
+    "disclaimer_section": "No Exchange, No Refund, No Cancellation This is a handcrafted product containing vintage fabrics, threads, sequins, zari, etc., and may have slight irregularities or imperfections. These irregularities are the result of the human involvement in the process and raw material that adds to the finished product’s charm while ensuring you have a 'one-of-a-kind piece.' Despite every effort to provide accurate images of each outfit's color and design, actual colors and design may vary slightly due to the screen settings of different devices, the mood and lighting in the shoot location, and other factors.Any returns for a product due to customer dissatisfaction with a finish (that is not a fault) will need to comply with the RAH terms and conditions."
+  }
+]
