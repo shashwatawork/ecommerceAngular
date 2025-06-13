@@ -1,4 +1,4 @@
-import { Component, ElementRef } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-single-product',
@@ -6,5 +6,9 @@ import { Component, ElementRef } from '@angular/core';
   styleUrls: ['./single-product.component.css'],
 })
 export class SingleProductComponent {
-  activeTab: string = '';
+  activeTab: string | null = '';
+
+  setActiveTab(tab: string) {
+    this.activeTab = this.activeTab === tab ? null : tab;
+  }
 }

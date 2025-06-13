@@ -120,9 +120,9 @@ body {
 .sizes a {
     color: rgba(0,0,0,0.8);
 }
-.sizes:hover a {
+/* .sizes:hover a {
     background-color: #f8f1e5;
-}
+} */
 
 .under_size {
     grid-row: 6/7;
@@ -147,13 +147,13 @@ body {
 }
 
 .product_add_to_cart {
+    margin-top: 20px;
     grid-row: 8/9;
     grid-column: 1/2;
     color: var(--cream);
     text-align: center;
     align-items: flex-start;
     padding: 10px;
-    border-radius: 30px;
     background: linear-gradient(90deg, #d4b689 0%, #7d6a2c 100%);
     width: 69%;
     height: auto;
@@ -228,7 +228,7 @@ a {
 
 .specification_section, .material_and_care_section, .disclaimer_section {
     background: rgba(255, 255, 255, 0.13); 
-    border-radius: 18px;
+    /* border-radius: 18px; */
     margin: 18px 0;
     padding: 22px 30px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.10);
