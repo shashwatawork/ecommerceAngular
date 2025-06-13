@@ -88,6 +88,9 @@ footer {
     background-color: #fff;
     color: #1e1e1e;
 }
+.social-icons i {
+    font-size: 16px;
+}
 
 .signup-form input {
     width: 100%;
@@ -97,6 +100,7 @@ footer {
     margin-bottom: 10px;
     color: #fff;
     font-size: 14px;
+    border-radius: 5px;
 }
 
 .signup-form input::placeholder {
@@ -112,6 +116,7 @@ footer {
     cursor: pointer;
     font-weight: bold;
     transition: background-color 0.3s;
+    border-radius: 5px;
 }
 
 .signup-form button:hover {
@@ -143,6 +148,7 @@ footer {
     color: #fff;
     border: none;
     font-size: 12px;
+    border-radius: 10px;
 }
 
 @media (max-width: 992px) {
