@@ -1,12 +1,27 @@
-<section class="appointment-section">
-  <h1>Book an Appointment</h1>
-  <p>
-    At <strong>Alankar</strong>, we offer personalized styling and shopping experiences to help you find the perfect ethnic wear for any occasion. Book an appointment with our expert team for one-on-one consultations, custom fittings, or to explore our exclusive collections in a comfortable and welcoming environment.
-  </p>
-  <p>
-    Whether you are preparing for a wedding, festival, or special event, our dedicated staff will guide you through our curated selection and assist you in making the best choices to suit your style and preferences.
-  </p>
-  <p>
-    Schedule your appointment today and let us make your shopping experience truly special!
-  </p>
-</section>
+<div class="appointment-card">
+  <section class="appointment-section">
+    <h1 class="appointment-title">Book an Appointment</h1>
+    <p>
+      At <strong>Alankar</strong>, we offer personalized styling and shopping experiences to help you find the perfect ethnic wear for any occasion. Book an appointment with our expert team for one-on-one consultations, custom fittings, or to explore our exclusive collections in a comfortable and welcoming environment.
+    </p>
+    <p>
+      Whether you are preparing for a wedding, festival, or special event, our dedicated staff will guide you through our curated selection and assist you in making the best choices to suit your style and preferences.
+    </p>
+    <p>
+      Schedule your appointment today and let us make your shopping experience truly special!
+    </p>
+    <form class="appointment-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <input type="tel" placeholder="Your Phone Number" required>
+      <select required>
+        <option value="" disabled selected>Select Service</option>
+        <option value="consultation">Personal Consultation</option>
+        <option value="fitting">Custom Fitting</option>
+        <option value="collection">Explore Collection</option>
+      </select>
+      <input type="date" required>
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+</div>
