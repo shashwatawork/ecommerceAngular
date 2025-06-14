@@ -7,13 +7,15 @@ import { StoryComponent } from './pages/story/story.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { AppointmentComponent } from './pages/appointment/appointment.component';
 
+import { HomeComponent } from './pages/home/home.component'; // Add this import
+
 const routes: Routes = [
-{ path: 'about', component: AboutComponent },
-{ path: 'story', component: StoryComponent },
-{ path: 'contact', component: ContactComponent },
-{ path: 'appointment', component: AppointmentComponent },
-{ path: '', redirectTo: '/about', pathMatch: 'full' },
-{ path: '**', redirectTo: '/about' }
+  { path: '', component: HomeComponent }, // Set HomeComponent as the default
+  { path: 'about', component: AboutComponent },
+  { path: 'story', component: StoryComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: 'appointment', component: AppointmentComponent },
+  { path: '**', redirectTo: '' }
 ];
 
 @NgModule({
